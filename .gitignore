@@ -15,3 +15,5 @@ target/surefire-reports/com.tushar.customAnnotation.AppTest.txt
 target/customAnnotation-0.0.1-SNAPSHOT.jar
 target/surefire-reports/TEST-com.tushar.customAnnotation.AppTest.xml
 target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+target/classes/META-INF/maven/com.tushar/customAnnotation/pom.properties
+target/classes/META-INF/maven/com.tushar/customAnnotation/pom.xml
