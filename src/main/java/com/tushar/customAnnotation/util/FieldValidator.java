@@ -25,15 +25,15 @@ public class FieldValidator implements ConstraintValidator<NotNullOn, Employee> 
 
         if (value.getLastName() == null) {
             context.disableDefaultConstraintViolation();
-            context.buildConstraintViolationWithTemplate("Beid is required")
-                    .addPropertyNode("beid").addConstraintViolation();
+            context.buildConstraintViolationWithTemplate("lastName is required")
+                    .addPropertyNode("lastName").addConstraintViolation();
             return false;
         }
 
         if (value.getLastName() != null){
                 context.disableDefaultConstraintViolation();
-                context.buildConstraintViolationWithTemplate("Offer is required for company address")
-                    .addPropertyNode("offer").addConstraintViolation();
+                context.buildConstraintViolationWithTemplate("lastName is required for company address")
+                    .addPropertyNode("lastName").addConstraintViolation();
                 return false;
         }
         return true;
